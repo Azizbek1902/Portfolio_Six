@@ -42,7 +42,7 @@ function Blogg() {
               />
               <p className="hover:text-[#8f1bdc] cursor-pointer text-[#999999] text-sm Pop">
                 Travel, Lifestyle
-              </p>{" "}
+              </p>
               |
               <FaComments
                 color="#999999"

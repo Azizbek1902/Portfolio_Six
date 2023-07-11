@@ -10,10 +10,12 @@ import Contact from "../pages/Contact";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Routes, Route } from "react-router-dom";
+import Loading from "../components/Loading";
 
 function Router() {
   return (
     <>
+    <Loading />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

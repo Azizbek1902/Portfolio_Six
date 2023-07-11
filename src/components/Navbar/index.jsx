@@ -58,13 +58,7 @@ const Navbar = () => {
               <div className="flex gap-4 text-[#645f88bf] items-center text-[16px]">
                 <div className="">
                   <NavLink
-                    className={({ isActive, isPending }) =>
-                      isPending
-                        ? "pending"
-                        : isActive
-                        ? "navLi active text-base  text-[#450b78] Pop"
-                        : " text-base  text-[#450b78] Pop"
-                    }
+                    className="text-base navLi  text-[#450b78]  Pop"
                     to={"/"}
                   >
                     <p className="navlink">Home</p>
@@ -88,7 +82,7 @@ const Navbar = () => {
                 </div>
                 <div className=" ">
                   <NavLink
-                    className="text-base navLi  text-[#450b78]  Pop"
+                     
                     to={"/pricing"}
                   >
                     <p className="navlink">Pricing</p>
